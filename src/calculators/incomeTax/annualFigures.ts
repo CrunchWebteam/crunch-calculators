@@ -293,4 +293,71 @@ export const annualFigures: AnnualFigure[] = [
       },
     ],
   },
+  {
+    year: '2023-24',
+    countries: [
+      {
+        name: 'scotland',
+        brackets: {
+          allowance: {
+            name: 'allowance',
+            rate: 0,
+            from: 0,
+            band: 12570,
+          },
+          starter: {
+            name: 'starter',
+            rate: 0.19,
+            from: 12570,
+          },
+          basic: {
+            name: 'basic',
+            rate: 0.2,
+            from: 14732,
+          },
+          intermediate: {
+            name: 'intermediate',
+            rate: 0.21,
+            from: 25688,
+          },
+          higher: {
+            name: 'higher',
+            rate: 0.42,
+            from: 43662,
+          },
+          additional: {
+            name: 'additional',
+            rate: 0.47,
+            from: 125140,
+          },
+        },
+      },
+      {
+        name: 'others',
+        brackets: {
+          allowance: {
+            name: 'allowance',
+            rate: 0,
+            from: 0,
+            band: 12570,
+            incomeLimit: 100000,
+          },
+          basic: {
+            name: 'basic',
+            rate: 0.2,
+            band: 37700,
+          },
+          higher: {
+            name: 'higher',
+            rate: 0.4,
+          },
+          additional: {
+            name: 'additional',
+            rate: 0.45,
+            from: 125140,
+          },
+        },
+      },
+    ],
+  },
 ];

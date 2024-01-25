@@ -1,5 +1,5 @@
 export interface AnnualFigure {
-  year: '2020-21' | '2021-22' | '2022-23' | '2023-24';
+  year: '2020-21' | '2021-22' | '2022-23' | '2023-24' | '2024-25';
   pre10: {
     car: number;
     van: number;
@@ -62,6 +62,21 @@ export const annualFigures: AnnualFigure[] = [
   },
   {
     year: '2023-24',
+    pre10: {
+      car: 0.45,
+      van: 0.45,
+      motorcycle: 0.24,
+      bicycle: 0.2,
+    },
+    post10: {
+      car: 0.25,
+      van: 0.25,
+      motorcycle: 0.24,
+      bicycle: 0.2,
+    },
+  },
+  {
+    year: '2024-25',
     pre10: {
       car: 0.45,
       van: 0.45,
