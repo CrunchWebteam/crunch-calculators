@@ -20,7 +20,7 @@ export interface IncomeTaxCountry {
 }
 
 export interface AnnualFigure {
-  year: '2020-21' | '2021-22' | '2022-23' | '2023-24' | '2024-25';
+  year: '2020-21' | '2021-22' | '2022-23' | '2023-24';
   countries: IncomeTaxCountry[];
 }
 
@@ -261,73 +261,6 @@ export const annualFigures: AnnualFigure[] = [
           additional: {
             name: 'additional',
             rate: 0.47,
-            from: 125140,
-          },
-        },
-      },
-      {
-        name: 'others',
-        brackets: {
-          allowance: {
-            name: 'allowance',
-            rate: 0,
-            from: 0,
-            band: 12570,
-            incomeLimit: 100000,
-          },
-          basic: {
-            name: 'basic',
-            rate: 0.2,
-            band: 37700,
-          },
-          higher: {
-            name: 'higher',
-            rate: 0.4,
-          },
-          additional: {
-            name: 'additional',
-            rate: 0.45,
-            from: 125140,
-          },
-        },
-      },
-    ],
-  },
-  {
-    year: '2024-25',
-    countries: [
-      {
-        name: 'scotland',
-        brackets: {
-          allowance: {
-            name: 'allowance',
-            rate: 0,
-            from: 0,
-            band: 12570,
-          },
-          starter: {
-            name: 'starter',
-            rate: 0.19,
-            from: 12570,
-          },
-          basic: {
-            name: 'basic',
-            rate: 0.2,
-            from: 14876,
-          },
-          intermediate: {
-            name: 'intermediate',
-            rate: 0.21,
-            from: 26561,
-          },
-          higher: {
-            name: 'higher',
-            rate: 0.42,
-            from: 43662,
-          },
-          additional: {
-            name: 'additional',
-            rate: 0.48,
             from: 125140,
           },
         },
