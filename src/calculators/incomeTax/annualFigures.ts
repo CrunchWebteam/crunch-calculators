@@ -20,7 +20,7 @@ export interface IncomeTaxCountry {
 }
 
 export interface AnnualFigure {
-  year: '2020-21' | '2021-22' | '2022-23' | '2023-24';
+  year: '2020-21' | '2021-22' | '2022-23' | '2023-24' | '2024-25';
   countries: IncomeTaxCountry[];
 }
 
@@ -294,7 +294,7 @@ export const annualFigures: AnnualFigure[] = [
     ],
   },
   {
-    year: '2023-24',
+    year: '2024-25',
     countries: [
       {
         name: 'scotland',

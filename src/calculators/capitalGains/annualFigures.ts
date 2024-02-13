@@ -80,21 +80,21 @@ export const annualFigures: AnnualFigure[] = [
     basicBand: 37700,
     higherBand: 125140,
   },
-  // Added data for 2024-25 (duplicate of 2023-24 TESTING NEW FIGURES)
+  // Added data for 2024-25
   {
     year: '2024-25',
-    exemption: 6020,
+    exemption: 3000,
     basicRate: {
-      residential: 0.17,
-      other: 0.3,
+      residential: 0.18,
+      other: 0.1,
     },
     higherRate: {
-      residential: 0.4,
-      other: 0.4,
+      residential: 0.28,
+      other: 0.2,
     },
-    badr: 0.5,
-    personalAllowance: 12530,
+    badr: 0.1,
+    personalAllowance: 12570,
     basicBand: 37700,
-    higherBand: 125170,
+    higherBand: 125140,
   },
 ];
