@@ -313,12 +313,12 @@ export const annualFigures: AnnualFigure[] = [
           basic: {
             name: 'basic',
             rate: 0.2,
-            from: 14732,
+            from: 14876,
           },
           intermediate: {
             name: 'intermediate',
             rate: 0.21,
-            from: 25688,
+            from: 26561,
           },
           higher: {
             name: 'higher',
@@ -327,7 +327,7 @@ export const annualFigures: AnnualFigure[] = [
           },
           additional: {
             name: 'additional',
-            rate: 0.47,
+            rate: 0.48,
             from: 125140,
           },
         },
