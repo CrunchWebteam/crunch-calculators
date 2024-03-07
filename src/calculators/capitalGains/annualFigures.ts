@@ -89,7 +89,7 @@ export const annualFigures: AnnualFigure[] = [
       other: 0.1,
     },
     higherRate: {
-      residential: 0.28,
+      residential: 0.24,
       other: 0.2,
     },
     badr: 0.1,
