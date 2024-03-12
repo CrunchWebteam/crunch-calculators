@@ -1,5 +1,5 @@
 export interface AnnualFigure {
-  year: '2020-21' | '2021-22' | '2022-23' | '2023-24';
+  year: '2020-21' | '2021-22' | '2022-23' | '2023-24' | '2024-25'; // Added '2024-25' here
   exemption: number;
   basicRate: {
     residential: number;
@@ -20,17 +20,17 @@ export const annualFigures: AnnualFigure[] = [
     year: '2020-21',
     exemption: 12300,
     basicRate: {
-      residential: 0.18,
+      residential: 0.1,
       other: 0.1,
     },
     higherRate: {
-      residential: 0.28,
+      residential: 0.2,
       other: 0.2,
     },
     badr: 0.1,
-    personalAllowance: 12500,
-    basicBand: 37500,
-    higherBand: 150000,
+    personalAllowance: 13500,
+    basicBand: 47500,
+    higherBand: 160000,
   },
   {
     year: '2021-22',
@@ -73,6 +73,23 @@ export const annualFigures: AnnualFigure[] = [
     },
     higherRate: {
       residential: 0.28,
+      other: 0.2,
+    },
+    badr: 0.1,
+    personalAllowance: 12570,
+    basicBand: 37700,
+    higherBand: 125140,
+  },
+  // Added data for 2024-25
+  {
+    year: '2024-25',
+    exemption: 3000,
+    basicRate: {
+      residential: 0.18,
+      other: 0.1,
+    },
+    higherRate: {
+      residential: 0.24,
       other: 0.2,
     },
     badr: 0.1,
